@@ -30,10 +30,41 @@
 
 @media (max-width: 600px) {
   .main {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 0.75rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .subtitle {
+    font-size: 0.95rem;
+  }
+  .resultWrapper {
+    padding: 1.25rem;
+  }
+  .resultHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .headerActions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .emotionLabel {
+    font-size: 0.9rem;
+  }
+  .analysisBox {
+    padding: 1.25rem;
+  }
+  .tipsContainer {
+    padding: 1.25rem;
+  }
+  .regenerateSection {
+    flex-direction: column;
+  }
+  .regenerateBtn {
+    width: 100%;
+    justify-content: center;
   }
 }
 
